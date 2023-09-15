@@ -1,0 +1,292 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  margin: 4em;
+  font-size: 15x;
+  font-weight: 200;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+.links a {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+  align-items: flex-end;
+}
+.sup-btn {
+  display: flex;
+  font-size: 15px;
+  margin-right: 5em;
+}
+button {
+  border: none;
+  border-radius: 115px;
+  color: white;
+  padding: 17px;
+  background-color: orange;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  padding: 10px;
+  height: 400px;
+  row-gap: 20px;
+  column-gap: 5px;
+}
+.grid-items1 {
+  font-size: 30px;
+  font-weight: 100;
+  padding: 5px;
+  margin-left: 20px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin-right: 4em;
+}
+.btn button {
+  margin: 25px;
+}
+h5 {
+  margin: 15px;
+  padding: 4px;
+}
+.grid-items2 {
+  font-size: 15px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #10b2f9, #0f92f0);
+  padding: 25px;
+  width: 250px;
+  color: white;
+  line-height: 30px;
+}
+.bttn {
+  padding: 10px;
+  border-radius: 5px;
+}
+.bttn button {
+  background-color: white;
+  color: black;
+}
+.pic img {
+  width: 100px;
+
+  margin-top: 10px;
+}
+.grid-items3 {
+  font-size: 15px;
+  border-radius: 10px;
+  background: linear-gradient(TO right, #fccb53, #e79b36);
+  padding: 25px;
+  color: white;
+  width: 250px;
+  height: 250px;
+  line-height: 30px;
+}
+
+.bmt button {
+  padding: 15px;
+  background-color: white;
+  color: black;
+}
+.grid-items4 {
+  font-size: 15px;
+  border-radius: 10px;
+  background: linear-gradient(TO right, #fccb53, #e79b36);
+  padding: 25px;
+  color: white;
+  width: 250px;
+  height: 250px;
+  line-height: 30px;
+}
+.MMM button {
+  padding: 15px;
+  background-color: white;
+  color: black;
+  margin: 15px;
+}
+.grid-items5 {
+  font-size: 15px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #fccb53, #e79b36);
+  padding: 25px;
+  color: white;
+  width: 250px;
+  height: 250px;
+  line-height: 30px;
+}
+.BBB button {
+  padding: 15px;
+  background-color: white;
+  color: black;
+  margin: 15px;
+}
+.grid-items6 {
+  font-size: 15px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #09cfbb, #06b3a3);
+  padding: 25px;
+  color: white;
+  height: 250px;
+  width: 250px;
+  line-height: 30px;
+}
+.CCC button {
+  padding: 15px;
+  background-color: white;
+  color: black;
+}
+.grid-items7 {
+  font-size: 15px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #0eb3f7, #1d5aed);
+  padding: 25px;
+  color: white;
+  height: 250px;
+  width: 250px;
+  line-height: 30px;
+}
+.FFF button {
+  padding: 15px;
+  background-color: white;
+  color: black;
+}
+@media only screen and (max-width: 600px) {
+  .topnav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo {
+    margin: 2em;
+    font-size: 15x;
+    font-weight: 200;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .links a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+  }
+  .sup-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0em;
+  }
+  button {
+    border-radius: 115px;
+    color: white;
+    padding: 17px;
+    background-color: orange;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2px;
+    padding: 10px;
+    height: auto;
+    row-gap: 20px;
+    column-gap: 5px;
+  }
+  .grid-items1 {
+    font-size: 30px;
+    font-weight: 100;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h5 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .grid-items2 {
+    font-size: 15px;
+    border-radius: 10px;
+    background-image: none;
+    background-color: #10b2f9;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: auto;
+    color: white;
+    line-height: normal;
+    text-align: center;
+  }
+  .bttn button {
+    background-color: white;
+    color: black;
+  }
+  .pic img {
+    width: auto;
+    height: auto;
+    max-width: none;
+    max-height: none;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .grid-items3 {
+    font-size: 15px;
+    border-radius: 10px;
+    background-image: none;
+    background-color: #fccb53;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    text-align: center;
+  }
+  .bmt button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+  }
+  .grid-items4 {
+    font-size: 15px;
+    border-radius: 10px;
+    background-image: none;
+    background-color: #fccb53;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    text-align: center;
+  }
+  .MMM button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
